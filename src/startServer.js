@@ -8,7 +8,7 @@ const startServer = () => {
   router.get("/", (req, res) => {
     res.json({
       name: "Steve",
-      lastName: "Jobs",
+      lastName: "Jobs New",
       isPresident: false
     });
   });
@@ -16,7 +16,7 @@ const startServer = () => {
   router.get("/hello", (req, res) => {
     res.json({
       name: "Bill",
-      lastName: "Gates",
+      lastName: "Gates New",
       isPresident: false
     });
   });
